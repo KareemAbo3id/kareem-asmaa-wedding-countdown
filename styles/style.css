@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@400;900&display=swap");
+
+/* Import Bootstrap 5.0.0 beta */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css");
+
+html {
+  font-size: 10px;
+}
+
+:root {
+  --mainColor: #444857;
+  --backGroundColor: #1e1f26;
+  --fontColor: #e1e1e1;
+  --borderradius: 0.5rem;
+}
+
+body {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 400;
+  background-color: var(--backGroundColor);
+  color: var(--fontColor);
+}
+
+.mainCounter {
+  text-align: center;
+  max-width: 35rem;
+}
+
+.mainCounter h2 {
+  padding: 3rem 0;
+  font-size: 2.3rem;
+  font-weight: 900;
+}
+
+.time-container {
+  border-radius: var(--borderradius);
+  border: 0.3rem solid var(--backGroundColor);
+  padding: 0.7rem 0;
+  background-color: var(--mainColor);
+}
+
+.timerPlaceHolder {
+  font-size: 2.3rem;
+  font-weight: 900;
+}
+
+.timeType {
+  font-size: 1.3rem;
+}
+
+.KareemAndAsmaa {
+  border-radius: var(--borderradius);
+  margin: 2rem auto;
+  margin-bottom: 0;
+}
+
+.img-caption {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin: 0;
+}
