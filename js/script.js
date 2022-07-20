@@ -33,6 +33,7 @@ setInterval(() => {
         minElement.innerHTML = "-";
         secElement.innerHTML = "-";
         document.getElementById('theTitle').textContent = "تم الزواج بنجاح، ألف مبروك!";
+        document.getElementById('theCaption').textContent = "";
     } else {
         // Replace html timers elements value with actual time
         monthElement.innerHTML = textMonth;
