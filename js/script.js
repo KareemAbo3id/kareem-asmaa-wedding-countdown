@@ -7,7 +7,7 @@ setInterval(() => {
     const secElement = document.querySelector(".sec");
 
     // Get the time gap between target date and currant date:
-    const targetDate = new Date("jul 23, 2022 00:00:00");
+    const targetDate = new Date("jul 23, 2022 20:00:00");
     const now = new Date().getTime();
     const timeGap = targetDate - now;
 
