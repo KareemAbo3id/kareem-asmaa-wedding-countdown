@@ -32,8 +32,11 @@ setInterval(() => {
         hourElement.innerHTML = "-";
         minElement.innerHTML = "-";
         secElement.innerHTML = "-";
-        document.getElementById('theTitle').textContent = "تم الزواج بنجاح، ألف مبروك!";
-        document.getElementById('theCaption').textContent = "";
+        document.getElementById('theTitle').textContent = "تم الزواج بنجاح، ألف مبروك 💃💏";
+        document.getElementById('theCaption').classList.add('hide');
+        document.getElementById('theTimer').classList.add('hide');
+        document.getElementById('carouselExampleInterval').classList.add('hide');
+        document.getElementById('theFinal').classList.remove('hide');
     } else {
         // Replace html timers elements value with actual time
         monthElement.innerHTML = textMonth;
