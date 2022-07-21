@@ -3,6 +3,10 @@
 /* Import Bootstrap 5.0.0 beta */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css");
 
+.hide {
+  display: none;
+}
+
 html {
   font-size: 10px;
 }
