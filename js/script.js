@@ -7,7 +7,7 @@ setInterval(() => {
     const secElement = document.querySelector(".sec");
 
     // Get the time gap between target date and currant date:
-    const targetDate = new Date("jul 23, 2022 20:00:00");
+    const targetDate = new Date("jul 23, 2022 21:00:00");
     const now = new Date().getTime();
     const timeGap = targetDate - now;
 
@@ -27,16 +27,19 @@ setInterval(() => {
 
     
     if (targetDate == now) {
-         monthElement.innerHTML = "-";
+        monthElement.innerHTML = "-";
         dayElement.innerHTML = "-";
         hourElement.innerHTML = "-";
         minElement.innerHTML = "-";
         secElement.innerHTML = "-";
-        document.getElementById('theTitle').textContent = "تم الزواج بنجاح، ألف مبروك 💃💏";
-        document.getElementById('theCaption').classList.add('hide');
-        document.getElementById('theTimer').classList.add('hide');
-        document.getElementById('carouselExampleInterval').classList.add('hide');
-        document.getElementById('theFinal').classList.remove('hide');
+        setTimeout(() =>{
+          document.getElementById('theTitle').textContent = "تم الزواج بنجاح، ألف مبروك 💃💏";
+          document.getElementById('theCaption').classList.add('hide');
+          document.getElementById('theTimer').classList.add('hide');
+          document.getElementById('carouselExampleInterval').classList.add('hide');
+          document.getElementById('theFinal').classList.remove('hide');
+        }, 5000); 
+        
     } else {
         // Replace html timers elements value with actual time
         monthElement.innerHTML = textMonth;
